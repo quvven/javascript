@@ -1,0 +1,19 @@
+<form>
+    <div class="form-group">
+      <label for="exampleInputEmail1">Email address</label>
+      <input type="email" [(ngModel)]="registerUser.email" class="form-control" id="exampleInputEmail1" name="email" >
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1">Password</label>
+      <input type="password" [(ngModel)]="registerUser.password" class="form-control" id="exampleInputPassword1" name="password">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputFirstName">First Name</label>
+      <input type="text"  [(ngModel)]="registerUser.firstName" class="form-control" id="exampleInputFirstName" name="firstName">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputLastName">Last Name</label>
+      <input type="text"  [(ngModel)]="registerUser.lastName" class="form-control" id="exampleInputLastName" name="lastName">
+    </div>
+    <button type="submit" class="btn btn-primary" (click)="register(registerUser)">Register</button>
+  </form>
