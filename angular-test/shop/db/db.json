@@ -1,0 +1,62 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Laptop",
+      "price": 3000,
+      "categoryId": 1,
+      "description": "Asus Laptop",
+      "img": "bg.png"
+    },
+    {
+      "id": 2,
+      "name": "Mouse",
+      "price": 30,
+      "categoryId": 2,
+      "description": "Logitech Camera",
+      "img": "bg.png"
+    },
+    {
+      "id": 3,
+      "name": "Webcam",
+      "price": 100,
+      "categoryId": 2,
+      "description": "A4 Tech Mouse",
+      "img": "bg.png"
+    },
+    {
+      "name": "Monitör",
+      "description": "AOC Full HD",
+      "img": "m.jpg",
+      "price": "2000",
+      "categoryId": "3",
+      "id": 4
+    },
+    {
+      "name": "Mouse",
+      "description": "Gamer Mouse",
+      "price": "200",
+      "img": "2.png",
+      "categoryId": "2",
+      "id": 5
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Elektronik"
+    },
+    {
+      "id": 2,
+      "name": "Bilgisayar"
+    },
+    {
+      "id": 3,
+      "name": "Beyaz Eşya"
+    },
+    {
+      "id": 4,
+      "name": "Spor Aletleri"
+    }
+  ]
+}

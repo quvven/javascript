@@ -1,0 +1,11 @@
+.card {
+    width: 18rem;
+    margin: 1rem;
+}
+
+.card img {
+    width: 286px;
+    height: 161px;
+    image-rendering: auto;
+    object-fit: scale-down;
+}

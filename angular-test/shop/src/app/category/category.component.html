@@ -1,0 +1,37 @@
+<h3>{{title}}</h3>
+<nav class="col-md-2 d-none d-md-block bg-light sidebar">
+    <div class="sidebar-sticky">
+      <ul class="nav flex-column">
+        <li class="nav-item" *ngFor="let category of categories">
+          <a class="nav-link active" href="#" routerLink="products/category/{{category.id}}">
+            <i class="fa fa-circle"></i>
+            {{category.name}}
+          </a>
+        </li>
+      </ul>
+      <hr>
+      <ul class="nav flex-column mb-2">
+        <li class="nav-item">
+          <a class="nav-link" href="#" routerLink="products/" style="font-size: 1.2rem;"> <i class="fa fa-list"></i> Ürünler </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" routerLink="cart/" style="font-size: 1.2rem;"> <i class="fa fa-cart-arrow-down"></i> Sepet </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" routerLink="checkout/" style="font-size: 1.2rem;"> <i class="fa fa-credit-card"></i> Ödeme </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" routerLink="check/" style="font-size: 1.2rem;"> <i class="fa fa-check"></i> Siparişler </a>
+        </li>
+      </ul>
+      <hr>
+      <ul class="nav flex-column mb-2">
+        <li class="nav-item">
+          <a class="nav-link" href="#" routerLink="product-add1" style="font-size: 1.2rem;"> <i class="fa fa-plus"></i> Ürün Ekle 1 </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" routerLink="product-add2" style="font-size: 1.2rem;"> <i class="fa fa-plus"></i> Ürün Ekle 2 </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
